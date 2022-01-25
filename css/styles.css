@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.index__body {
+  background-image: url("../img/project00.JPG");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.index__body:hover {
+  background-image: url("../img/project-1.jpg");
+  transition: 2s;
+}
+
+.index__body:hover main .home {
+  text-align: center;
+  background-color: #414141;
+  opacity: 0.9;
+  transition: 2s;
+}
+
+
+/* navbar*/
+
+.navbar {
+  padding: 1rem;
+  margin-top: 0;
+}
+.navbar-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: 500;
+}
+.navbar-top li {
+  list-style-type: none;
+}
+
+.navbar-top a {
+  text-decoration: none;
+  padding-left: 10px;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.navbar-top a:hover {
+  color: rgba(0, 0, 255);
+  transition: 2s;
+}
+
+.navbar .navbar-home {
+  color: #ff652f;
+}
+
+.navbar .navbar-home:hover {
+  color: #ff652f;
+}
+
+/*isim kutusu*/
+
+main .home {
+  display: flex column;
+  margin-top: 116px;
+  font-size: 21px;
+  
+}
+
+.home h1,
+h2 {
+  color: white;
+  margin: 1rem;
+}
+
+.home h1 {
+  border-bottom: 2px solid white;
+  width: 100%;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.home span {
+  color: red;
+  margin-left: 1rem;
+}
+
+/* bottom*/
+
+.social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.social-icons a {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+.social-icons i {
+  color: white;
+}
+
+.social-icons i:hover {
+  color: rgb(255, 101, 47);
+  transition: 0.6s;
+}
+
+footer {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: white;
+}
+
+/*!  About sayfasi */
+
+.body__about {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+.header--about {
+  background-image: url("../img/project-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* height:40vh; */
+  width: 100%;
+  height: 40vh;
+}
+.navbar--about {
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.navbar--about .navbar--highlight {
+  color: #ff652f;
+}
+
+.navbar--about .navbar--highlight:hover {
+  color: #ff652f;
+}
+
+.about__bio-image {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 85px;
+}
+.about__bio-image h2 {
+  font-size: 48px;
+  color: rgb(255, 255, 0);
+}
+
+.about__bio-image p {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 1rem;
+}
+/*!main kutusu*/
+
+main.about {
+  margin: 0;
+  padding: 0;
+  background-color: #272727;
+  color: white;
+}
+
+main .about__container {
+  padding: 1rem;
+}
+
+main .about__job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #414141;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-bottom: 5px solid #ff652f;
+}
+
+.about__job .text-secondary {
+  margin-left: 16px;
+
+  font-size: 36px;
+}
+
+.about__job h3,
+h6,
+p {
+  margin: 0 8px;
+  padding: 0.4rem;
+  font-size: 24px;
+}
+
+.about__job h3 {
+  color: red;
+}
+/*!  bottom*/
+
+.social-icons__about {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 10px;
+}
+.social-icons__about a {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+.social-icons__about i {
+  color: white;
+}
+
+.social-icons__about i:hover {
+  color: rgb(255, 101, 47);
+  transition: 0.6s;
+}
+
+footer {
+  position: fixed;
+  transform: rotate(90deg);
+  right: -25px;
+  bottom: 65px;
+  color: white;
+}
+
+/*! Projekt sayfasi */
+.projects {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #272727;
+  margin-bottom: 0;
+}
+
+.header--projekt {
+  background-image: url("../img/project-2.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* height:40vh; */
+  width: 100%;
+  height: 50vh;
+}
+
+.about__bio-image__projekt h2 {
+  font-size: 3em;
+  color: yellow;
+  text-align: center;
+  margin-top: 165px;
+}
+
+.projects__items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin-bottom: 2rem;
+}
+
+.projects__item img {
+  width: 450px;
+  border-bottom: 5px solid #ff652f;
+  opacity: 0.5;
+}
+
+.projects__item img:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/*! footer */
+
+.social-icons__projekt {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 10px;
+}
+.social-icons__projekt a {
+  margin-right: 1rem;
+  padding: 1rem;
+}
+.social-icons__projekt i {
+  color: white;
+}
+
+.social-icons__projekt i:hover {
+  color: rgb(255, 101, 47);
+  transition: 0.6s;
+}
+
+footer {
+  position: fixed;
+  transform: rotate(90deg);
+  right: -25px;
+  bottom: 65px;
+  color: white;
+}
+
+/*! Contact*/
+
+.body__contact {
+  background-image: url("../img/project-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact__list {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  background-color: #414141;
+  width: 940px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.contact__list .contact__item {
+  color: white;
+  margin-right: 1rem;
+  font-size: 24px;
+}
+
+.social-icons__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #272727;
+  width: 340px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.social-icons__contact i {
+  margin: 16px;
+
+  margin-right: 2rem;
+  color: white;
+}
+
+.social-icons__contact i:hover {
+  color:#ff652f;
+  transition:1s;
+}
